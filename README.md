@@ -54,5 +54,5 @@ Credits:
 Crysawn (Reddit user) for identifying the potential software bug and proposing the ping solution.
 Additional Resources:
 
-Reddit thread discussing Ecobee WiFi drop issue: https://www.reddit.com/r/ecobee/comments/8y5t2c/ecobee_4_screen_frozen/
+Reddit thread discussing Ecobee WiFi drop issue: https://www.reddit.com/r/ecobee/comments/6lgq07/fix_ecobee4_loses_wifi_connection/
 By following these steps, you should be able to automatically keep your Ecobee thermostat online using periodic pings. Hopefully, this workaround provides a reliable solution until a permanent fix becomes available.
