@@ -21,15 +21,15 @@ Bash
 #!/bin/bash
 
 # Replace 192.168.1.1 with your Ecobee's IP address
-ping -c 1 192.168.1.1 > /dev/null 2>&1
+while true; do
+  ping -c 1 192.168.1.1
+  sleep 3600
+done
 
-# Schedule script to run every hour using cron
-crontab -
+# Schedule script to run every hour using sleep command
+sleep 3600
 
-# Edit crontab and add the following line:
-0 * * * * /path/to/ecobee_ping.sh
-
-# Save and close crontab (Ctrl+X, Y)
+# Save
 Use code with caution. Learn more
 Make the script executable:
 Bash
